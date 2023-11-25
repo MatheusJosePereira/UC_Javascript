@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davi Gabriel Vieira Santos</title>
+</head>
+<body>
+    <script>
+        alert("Descubra qual é o maior nùmero")
+        let n1 = parseFloat(prompt("Digite um numero"));
+        let n2 = parseFloat(prompt("Digite um segundo numero"));
+        let n3 = parseFloat(prompt("Digite um Terceiro numero"));
+
+        if(n1>n2 && n1>n3){
+            document.write("<h2> O numero maior é<h2>" + "\n" +  n1);
+        } else if(n1<n2  && n2>n3){
+            document.write("O maior numero é" + "\n" +  n2)
+        }else if(n1<n2  && n2<n3){
+            document.write("O maior numero é" + "\n" + n3)
+        }   
+    </script>
+</body>
+</html>

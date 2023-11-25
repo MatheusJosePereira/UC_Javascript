@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 2</title>
+</head>
+<body>
+    <script>
+      
+      alert("Olha a Bombaa");
+
+      function repeticao(){
+        for (var t = 30; t>= 0; t--){
+
+                (function loop(t) {
+                    setTimeout(function(){
+                        document.write(t + "<br>");
+
+                        if(t==30){
+                            document.write("EXPLOSÃO")
+                    }
+                        
+                        
+                    },2000*t)
+
+                })(t);
+        }
+      }  
+      repeticao()
+
+    </script>
+</body>
+</html>

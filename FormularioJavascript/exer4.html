@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 4</title>
+</head>
+
+<body>
+    <script>
+
+        var soma = 0;
+        var qtas = 0;
+        for (let n = 15; n <= 100; n = n + 1) {
+            soma = soma + n;
+            qtas = qtas + 1;
+            document.write(n + "<br>");
+            document.write(qtas + "<br>");
+            document.write("O loop acabou <br>")
+        }
+
+        var divisao = soma / qtas;
+        document.write(divisao + "<br>")
+    </script>
+</body>
+
+</html>

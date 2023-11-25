@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davi Gabriel Vieira Santos</title>
+</head>
+<body>
+    <script>
+        alert("Descubra se você poderá votar esse ano")
+        let anon = parseFloat(prompt("Digite o seu ano de nascimento:"))
+
+        let resultado = 2023 - anon
+
+        if(resultado >= 16){
+            document.write("<h1>Você pode votar neste ano<h1>")
+        } else if(resultado < 16){
+            document.write("<h1>Você não poderá votar neste ano<h1>")
+        }
+
+
+    </script>
+    
+</body>
+</html>

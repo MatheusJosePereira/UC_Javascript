@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davi Gabriel Vieira Santos</title>
+</head>
+<body>
+    <script>
+        alert("Insira um Poligo")
+        let lados = parseFloat(prompt("Insira o número de lados a baixo:"));
+        let valor = parseFloat(prompt("Insira o valor de cada lado (em cm)"))
+       
+        
+        if(lados == 3){
+            document.write("<h1>TRIÂNGULO<h1> <br>")
+            let perimetro = lados*valor
+            document.write ("<h1>O sua perimetro é :" + perimetro + "cm <h1>");
+        
+        }else if(lados  == 4){
+            document.write("<h1>QUADRADO<h1> <br>")
+             let area = valor*valor
+             document.write ("<h1>O seu area é :" + area + "cm <h1>");
+        }else if(lados  == 5){
+            document.write("<h1>PENTÁGONO<h1> <br>")
+         }else if (lados < 3){
+            document.write("<h1>NÃO É UM POLÍGONO<h1>")
+         }else {
+            document.write("<h1>POLÍGONO NÃO ENCONTRADO<h1>")
+         }
+        
+    </script>
+    
+</body>
+</html>

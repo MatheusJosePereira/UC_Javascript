@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 1</title>
+</head>
+<body>
+    <script>
+        alert("insira os valores e decubra sua divisão")
+        let n1 =parseFloat(prompt("Escollha um valor: "));
+        let n2 =parseFloat(prompt("Escollha um segundo valor: "));
+
+        if(n2 == 0){
+            n2 = parseFloat(prompt("Número invalido, insira outro valor diferente de 0"))
+            if(n2!=0){
+                document.write("O valor da divisão é: " + (n1/n2))
+            }else {
+                document.write("Erro, por favor reinicie a página!")
+            }
+        }
+
+        let resultado = n1/n2
+        document.write("O resultado da operação é: " + resultado)
+
+
+    </script>
+</body>
+</html>
